@@ -1,6 +1,6 @@
 # U1 - Proyecto integrador de formulario
 Este proyecto es una aplicación realizada con **Flet (Python)** que implementa un formulario con validaciones avanzadas y diferentes controles de entrada.
-
+---
 ### El objetivo es mostrar el uso de:
 
 ✔ Validación de entradas vacías
@@ -132,7 +132,7 @@ En cualquier sistema operativo:
 deactivate
 `
 Tu terminal volverá al estado normal.
-
+---
 ## En general 
 
 <img width="599" height="307" alt="{B0D95E24-B121-4135-AB53-ACB5A9C2B3CC}" src="https://github.com/user-attachments/assets/dbf5e562-0afc-484f-9108-dc1538a29657" />
@@ -279,10 +279,10 @@ Si hay error, muestra un SnackBar rojo.
 
 ## Estructura visual final en la pantalla
 `page.add(ft.Column([...]))`
-
+---
 # Ejecución final
 `ft.run(main)`
-
+---
 # Codigo completo
 ```
 import re 
@@ -481,6 +481,7 @@ def main(page: ft.Page):
 
 ft.run(main)
 ```
+---
 # Para ejecutar el programa 
 ## Ejecutar Flet en modo ESCRITORIO
 
@@ -507,7 +508,7 @@ Por:
 Ahora ejecuta:
 
 `python main.py`
-
+---
 # Ejecucion mostrada
 
 <img width="396" height="447" alt="image" src="https://github.com/user-attachments/assets/4c2b80c4-cbeb-4f20-8fbd-a2e7d26f20c6" />
