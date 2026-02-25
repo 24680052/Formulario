@@ -19,6 +19,7 @@ De esta manera, se convierte en un ejemplo completo de cómo utilizar Flet para 
 Además, la aplicación está configurada para ejecutarse tanto en modo escritorio como directamente dentro del navegador web, lo que demuestra la versatilidad de Flet y facilita la portabilidad del proyecto para presentaciones o entornos educativos.
 
 En resumen, este proyecto integra múltiples elementos tecnológicos para crear una aplicación eficiente, dinámica y visualmente atractiva, cumpliendo con los requisitos esenciales de un formulario profesional con validaciones, modales y controles interactivos, ideal para fines académicos o como base para sistemas más complejos en el futuro.
+
 ---
 ### El objetivo es mostrar el uso de: 
 
