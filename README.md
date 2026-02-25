@@ -24,7 +24,20 @@ Este proyecto es una aplicación realizada con **Flet (Python)** que implementa 
 - Carrera (Dropdown)
 - Semestre (Dropdown)
 - Género (Radio buttons)
+- 
+## 1. Instalar Flet dentro del entorno virtual
 
+Con el entorno activado, escribe:
+`
+pip install flet
+`
+Para verificar que se instaló:
+`
+pip list
+`
+Debe aparecer:
+`
+flet   X.X.X`
 # Crear un entorno virtual (Windows, Linux o Mac)
 
 Un entorno virtual sirve para aislar las dependencias del proyecto.
@@ -75,19 +88,6 @@ La terminal mostrará:
 
 `(venv) user@pc:~/proyecto$`
 
-## 2. Instalar Flet dentro del entorno virtual
-
-Con el entorno activado, escribe:
-`
-pip install flet
-`
-Para verificar que se instaló:
-`
-pip list
-`
-Debe aparecer:
-`
-flet   X.X.X`
 ### 3. Crear tu archivo principal (main.py)
 
 Ejemplo:
