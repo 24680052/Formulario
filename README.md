@@ -133,6 +133,8 @@ deactivate
 `
 Tu terminal volverá al estado normal.
 
+## En general 
+
 <img width="599" height="307" alt="{B0D95E24-B121-4135-AB53-ACB5A9C2B3CC}" src="https://github.com/user-attachments/assets/dbf5e562-0afc-484f-9108-dc1538a29657" />
 
 ### El formulario solicita al usuario ingresar:
@@ -479,6 +481,32 @@ def main(page: ft.Page):
 
 ft.run(main)
 ```
+# Para ejecutar el programa 
+## Ejecutar Flet en modo ESCRITORIO
+
+Este es el modo predeterminado.
+
+En la terminal:
+
+`python main.py`
+
+Se abrirá una ventana independiente como aplicación.
+
+## Ejecutar Flet en un NAVEGADOR WEB
+
+Para esto debes modificar la última línea del programa.
+
+Cambia:
+
+`ft.app(target=main)`
+
+Por:
+
+`ft.app(target=main, view=ft.WEB_BROWSER)`
+
+Ahora ejecuta:
+
+`python main.py`
 
 # Ejecucion mostrada
 
