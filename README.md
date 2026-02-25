@@ -1,5 +1,24 @@
 # U1 - Proyecto integrador de formulario
-Este proyecto es una aplicación realizada con **Flet (Python)** que implementa un formulario con validaciones avanzadas y diferentes controles de entrada.
+Este proyecto es una aplicación realizada con **Flet (Python)** que implementa un formulario con validaciones avanzadas y diferentes controles de entrada.Este proyecto consiste en el desarrollo de una aplicación interactiva construida con Flet, un framework de Python que permite crear interfaces gráficas modernas y multiplataforma.
+El objetivo principal del proyecto es implementar un formulario completo de registro con validaciones avanzadas, controles diversos y una presentación visual clara y fácil de usar.
+
+La aplicación está diseñada para recopilar información básica de un usuario, validar los datos ingresados y mostrar los resultados de forma organizada dentro de una ventana modal.
+Además, se incorporan notificaciones visuales para indicar al usuario cuando la información ha sido enviada correctamente o cuando existe algún error en los campos.
+
+Uno de los aspectos más importantes del proyecto es la implementación de validaciones en tiempo real, las cuales verifican que los campos no estén vacíos, que el formato del correo electrónico sea correcto y que todos los elementos requeridos hayan sido seleccionados.
+El botón de envío se habilita o deshabilita dinámicamente dependiendo de si las validaciones se cumplen, brindando retroalimentación inmediata al usuario.
+
+Cuando el usuario presiona el botón Enviar, el programa realiza una validación final y, si todo está correcto, muestra una notificación tipo SnackBar indicando que el envío fue exitoso.
+Al mismo tiempo, los datos se guardan y se agregan en una sección interna de registros, que posteriormente se muestran dentro de un AlertDialog (ventana modal).
+Este cuadro modal presenta los datos recopilados en un diseño limpio y organizado, permitiendo al usuario revisar la información de manera clara.
+Adicionalmente, el formulario se limpia automáticamente después del envío para permitir nuevos registros.
+
+El proyecto no solo demuestra la implementación técnica del formulario, sino también el manejo interactivo de ventanas, validaciones, componentes visuales y almacenamiento rápido dentro de la interfaz.
+De esta manera, se convierte en un ejemplo completo de cómo utilizar Flet para crear aplicaciones modernas que combinan funcionalidad, diseño y experiencia de usuario.
+
+Además, la aplicación está configurada para ejecutarse tanto en modo escritorio como directamente dentro del navegador web, lo que demuestra la versatilidad de Flet y facilita la portabilidad del proyecto para presentaciones o entornos educativos.
+
+En resumen, este proyecto integra múltiples elementos tecnológicos para crear una aplicación eficiente, dinámica y visualmente atractiva, cumpliendo con los requisitos esenciales de un formulario profesional con validaciones, modales y controles interactivos, ideal para fines académicos o como base para sistemas más complejos en el futuro.
 ---
 ### El objetivo es mostrar el uso de: 
 
